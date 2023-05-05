@@ -1,0 +1,28 @@
+{
+  "name": "helper",
+  "version": "1.0.0",
+  "description": "Conversion and other methods",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JokrtKT4/Helper.git"
+  },
+  "keywords": [],
+  "author": "Karnav Thakor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JokrtKT4/Helper/issues"
+  },
+  "homepage": "https://github.com/JokrtKT4/Helper#readme",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
